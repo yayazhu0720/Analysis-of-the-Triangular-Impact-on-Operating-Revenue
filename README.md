@@ -49,4 +49,4 @@ The correlation heatmap confirms that the independent variables have low pairwis
 ### 2. Install Dependencies
 Install all required libraries using:
 ```bash
-pip install -r requirements.txt   
+pip install wrds pandas numpy matplotlib seaborn scipy statsmodels scikit-learn  
