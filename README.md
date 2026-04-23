@@ -51,11 +51,6 @@ Install all required libraries using:
 ```bash
 pip install wrds pandas numpy matplotlib seaborn scipy statsmodels scikit-learn  
 ```
-### 3. Run the Project
-Once the dependencies are installed, run the main analysis script:
-```bash
-python "Analysis of the Triangular Impact on Operating Revenue.py"
-```
 ## Code Usage Instructions
 This project is based on a Jupyter Notebook (`.ipynb`).
 Once the dependencies are installed, you can run the analysis in one of the following ways:
