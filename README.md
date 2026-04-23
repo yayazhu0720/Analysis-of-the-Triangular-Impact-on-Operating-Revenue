@@ -55,3 +55,20 @@ pip install wrds pandas numpy matplotlib seaborn scipy statsmodels scikit-learn
 Once the dependencies are installed, run the main analysis script:
 ```bash
 python "Analysis of the Triangular Impact on Operating Revenue.py"
+```
+## Code Usage Instructions
+This project is based on a Jupyter Notebook (`.ipynb`).
+Once the dependencies are installed, you can run the analysis in one of the following ways:
+The code of this project has removed sensitive information and environmental installation outputs.
+Only the core research results (regression analysis, visual charts) are retained.
+Before running, please install dependencies and configure the WRDS account.
+### Option 1: Run in Jupyter Notebook (Recommended)
+1.  Open the notebook file:
+    `Analysis of the Triangular Impact on Operating Revenue.ipynb`
+2.  Run the cells in order from top to bottom.
+
+### Option 2: Convert to Python script (if needed)
+If you prefer to run it as a Python script, you can convert the notebook first:
+```bash
+jupyter nbconvert --to script "Analysis of the Triangular Impact on Operating Revenue.ipynb"
+python "Analysis of the Triangular Impact on Operating Revenue.py"
