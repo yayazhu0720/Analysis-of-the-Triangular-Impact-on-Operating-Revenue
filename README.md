@@ -50,7 +50,7 @@ The correlation heatmap confirms that the independent variables have low pairwis
 Install all required libraries using:
 ```bash
 pip install wrds pandas numpy matplotlib seaborn scipy statsmodels scikit-learn  
-
+```
 ### 3. Run the Project
 Once the dependencies are installed, run the main analysis script:
 ```bash
