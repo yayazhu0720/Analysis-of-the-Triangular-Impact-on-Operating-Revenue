@@ -49,8 +49,11 @@ The correlation heatmap confirms that the independent variables have low pairwis
 ### 2. Install Dependencies
 Install all required libraries using:
 ```bash
-pip install wrds pandas numpy matplotlib seaborn scipy statsmodels scikit-learn  
+pip install -r requirements.txt  
 ```
+## Dataset 
+The full dataset is from WRDS and restricted. For demonstration, we provide a small sample: sample_data.csv
+
 ## Code Usage Instructions
 This project is based on a Jupyter Notebook (`.ipynb`).
 Once the dependencies are installed, you can run the analysis in one of the following ways:
