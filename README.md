@@ -28,14 +28,7 @@ Figure 1 presents box plots of the core variables. Logarithmic transformations a
 
 ---
 
-### Figure 2: Regression Coefficient Comparison
-Figure 2 compares the magnitude of the estimated coefficients. ROA shows the strongest positive impact on operating revenue, followed by total assets. Leverage ratio does not show a significant effect.
-
-![Coefficient Plot](https://github.com/user-attachments/assets/3ba0d268-827f-4446-95aa-4451728622bd)
-
----
-
-### Figure 3: Variable Correlation Heatmap
+### Figure 2: Variable Correlation Heatmap
 The correlation heatmap confirms that the independent variables have low pairwise correlations, ensuring the regression model is not affected by severe multicollinearity.
 
 ![Correlation Heatmap](https://github.com/user-attachments/assets/9beca0f4-89b9-4ac5-9e28-67538b1da45d)
@@ -52,21 +45,20 @@ Install all required libraries using:
 pip install -r requirements.txt  
 ```
 ## Dataset 
-The full dataset is from WRDS and restricted. For demonstration, we provide a small sample: sample_data.csv
+1. The full dataset is from WRDS. 
+2. The core database used：csmar.wrds_csmar_financial_master.
+3. Core variables: a001000000-Total assets; b001100000-Operating revenue; c001000000-Cash flow generated from operating activities； a002000000-Total liabilities.
+4. Data period：2020-1-1 to 2024-12-31.
+5. Please open my notebook file and run the code instead of cloning it directly in the terminal.
 
 ## Code Usage Instructions
-This project is based on a Jupyter Notebook (`.ipynb`).
-Once the dependencies are installed, you can run the analysis in one of the following ways:
+1. This project is based on a Jupyter Notebook (`.ipynb`).
+2. Once the dependencies are installed, you can run the analysis in one of the following ways:
 The code of this project has removed sensitive information and environmental installation outputs.
 Only the core research results (regression analysis, visual charts) are retained.
-Before running, please install dependencies and configure the WRDS account.
-### Option 1: Run in Jupyter Notebook (Recommended)
-1.  Open the notebook file:
+3. Before running, please install dependencies and configure the WRDS account.
+### Special Note
+1. Open the notebook file:
     `Analysis of the Triangular Impact on Operating Revenue.ipynb`
-2.  Run the cells in order from top to bottom.
-
-### Option 2: Convert to Python script (if needed)
-If you prefer to run it as a Python script, you can convert the notebook first:
-```bash
-jupyter nbconvert --to script "Analysis of the Triangular Impact on Operating Revenue.ipynb"
-python "Analysis of the Triangular Impact on Operating Revenue.py"
+2. Run the cells in order from top to bottom.
+3. Due to the large volume of data, the data crawling process is expected to take ten minutes. Please be patient and wait.
