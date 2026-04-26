@@ -44,12 +44,14 @@ Install all required libraries using:
 ```bash
 pip install -r requirements.txt  
 ```
+### 3. Code Execution Guide
+Please open my notebook file and run the code instead of cloning it directly in the terminal.
 ## Dataset 
 1. The full dataset is from WRDS. 
 2. The core database used：csmar.wrds_csmar_financial_master.
 3. Core variables: a001000000-Total assets; b001100000-Operating revenue; c001000000-Cash flow generated from operating activities； a002000000-Total liabilities.
 4. Data period：2020-1-1 to 2024-12-31.
-5. Please open my notebook file and run the code instead of cloning it directly in the terminal.
+
 
 ## Code Usage Instructions
 1. This project is based on a Jupyter Notebook (`.ipynb`).
